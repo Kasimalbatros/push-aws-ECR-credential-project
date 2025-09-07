@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Kasimalbatros/add-paramters-project.git'
+                git branch: 'master', url: 'https://github.com/Kasimalbatros/push-aws-ECR-credential-project.git'
             }
         }
 
